@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Error</title>
+</head>
+<body>
+  <div id="myDiv">
+    This is some text.
+  </div>
+  <script>
+    // Incorrect use of innerHTML to insert HTML content
+    document.getElementById('myDiv').innerHTML = '<p>This is a paragraph.</p> <img src="nonexistent.jpg">'; 
+  </script>
+</body>
+</html>
